@@ -45,7 +45,7 @@ composer install
 2. **Configurar o banco de dados**:
 
    - Abra o painel de controle do XAMPP e inicie o Apache e o MySQL.
-   - Crie um banco de dados no **phpMyAdmin** (acessível em `http://localhost/phpmyadmin/`) com o nome `crud_policiais`.
+   - Crie um banco de dados no **phpMyAdmin** (acessível em `http://localhost/phpmyadmin/`) com o nome `gerenciamento_policiais`.
    
 3. **Configurar as credenciais do banco de dados** no arquivo `.env`:
 
