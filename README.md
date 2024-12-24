@@ -38,7 +38,7 @@ git clone https://github.com/GabrielViniciusLCM/Gerenciamento-Policiais.git
 1. **Instale as dependências do Laravel** com o Composer:
 
 ```bash
-cd crud-policiais
+cd Gerenciamento-Policiais
 composer install
 ```
 
