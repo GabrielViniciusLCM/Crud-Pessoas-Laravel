@@ -55,7 +55,7 @@ composer install
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=crud_policiais
+DB_DATABASE=gerenciamento_policiais
 DB_USERNAME=root
 DB_PASSWORD=
 ```
@@ -81,21 +81,5 @@ Agora, o sistema estará rodando no endereço `http://127.0.0.1:8000`.
 ### Passo 5: Acessar o sistema
 
 Abra seu navegador e acesse o sistema em:  
-`http://127.0.0.1:8000`
+`http://127.0.0.1:8000/inicio`
 
-Você verá a interface do CRUD de policiais, onde poderá adicionar, editar, excluir e listar policiais.
-
-## Estrutura do Projeto
-
-- **app/Http/Controllers**: Contém os controladores responsáveis pela lógica do CRUD.
-- **resources/views**: Contém as views (páginas HTML) que são exibidas no navegador.
-- **database/migrations**: Contém os arquivos de migração para criar as tabelas no banco de dados.
-- **routes/web.php**: Define as rotas que conectam as páginas aos controladores.
-
-## Licença
-
-Este projeto é de código aberto e está licenciado sob a licença MIT.
-
----
-
-Este README fornece um guia completo de instalação e configuração para rodar o projeto em seu ambiente local usando XAMPP e Laravel. Ao seguir os passos, você terá um CRUD básico de policiais funcionando, pronto para ser customizado ou estendido conforme necessário.
