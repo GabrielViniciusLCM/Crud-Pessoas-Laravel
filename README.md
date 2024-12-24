@@ -1,4 +1,4 @@
-# Cadastro de Policiais - PHP/Laravel
+# Gerenciamento de Policiais - PHP/Laravel
 
 Este projeto é um sistema CRUD (Create, Read, Update, Delete) para cadastro e gestão de policiais. O projeto foi desenvolvido com o framework Laravel e utiliza o banco de dados local, configurado no XAMPP.
 
